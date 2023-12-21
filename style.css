@@ -101,3 +101,24 @@ button{
         transform: translateX(0);
     }
 }
+
+@media (max-width:600px){
+
+    .main{
+        width: 100vw;
+        margin: 0px 20px;
+    }
+
+    .main>p{
+        font-size: 20px;
+    }
+
+    .main>input{
+        width: 60vw;
+        font-size: 20px;
+    }
+
+    button{
+        width: 60vw;
+    }
+ }
